@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Propiedad Position</title>
+</head>
+<body>
+    <nav>
+        <h1>UVA 2 - Propiedad Position</h1>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>¿Es necesario utilizar la propiedad z-index para controlar la superposición de elementos?</h3>
+        <p>Si bien la propiedad z-index controla fácil y rápidamente la superposición de elementos, no es completamente necesario utilizarla en algunos casos ya que se pueden aprovechar otras técnicas de diseño. Podemos obtener el mismo resultado manipulando el orden de los elementos en el HTML, anidando contenedores o utilizando la propiedad position correctamente. </p>
+
+        <div class="ejemplos">
+            <div class="contenedorZIndex">
+                <h class="texto">Ejemplo de la superoposición de elementos utilizando la propiedad z-index</h>
+                <div class="elementoD"></div>
+                <div class="elementoC"></div>
+            </div>
+    
+            <div class="contenedorPosition">
+                <h>Ejemplo de la superoposición de elementos utilizando la propiedad position</h>
+                <div class="elementoA"></div>
+                <div class="elementoB"></div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
